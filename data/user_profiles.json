@@ -1,0 +1,14 @@
+{
+  "user-001": {
+    "last_location": "Delhi",
+    "last_budget": "medium",
+    "last_cuisine": "chinese",
+    "optional_preferences": [
+      "chef special",
+      "quick service",
+      "cozy ambience",
+      "family-friendly"
+    ],
+    "last_feedback_restaurant": "Dragon Bowl"
+  }
+}

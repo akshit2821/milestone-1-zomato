@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Delhi chinese medium budget",
+    "request": {
+      "location": "Delhi",
+      "budget": "medium",
+      "cuisine": "chinese",
+      "min_rating": 4.0,
+      "optional_preferences": [
+        "quick service"
+      ],
+      "top_n": 3
+    },
+    "expected_min_results": 1
+  },
+  {
+    "name": "Strict filters with fallback",
+    "request": {
+      "location": "Delhi",
+      "budget": "low",
+      "cuisine": "japanese",
+      "min_rating": 4.8,
+      "optional_preferences": [],
+      "top_n": 3
+    },
+    "expected_min_results": 1
+  }
+]

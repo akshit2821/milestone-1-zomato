@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: restaurant-reco-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: LLM_MODE
+        value: deterministic
+      - key: DATA_FILE_PATH
+        value: data/restaurants_clean.csv
+      - key: PYTHON_VERSION
+        value: 3.9
+    healthCheckPath: /health
+    autoDeploy: yes
