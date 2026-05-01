@@ -15,6 +15,7 @@ app.add_middleware(
         "http://localhost:5173", 
         "http://127.0.0.1:5173",
         "https://milestone-1-zomato-two.vercel.app",
+        "https://milestone-1-zomato-29n6axcsk-akshit2821s-projects.vercel.app",
         "https://*.vercel.app"
     ],
     allow_credentials=True,
