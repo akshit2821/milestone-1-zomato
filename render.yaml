@@ -1,3 +1,4 @@
+# Backend deployment config with CORS fix for Vercel frontend
 services:
   - type: web
     name: restaurant-reco-backend
